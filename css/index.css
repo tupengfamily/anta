@@ -103,7 +103,7 @@ nav ul li img{
 	
 }
 
-nav ul li a{
+nav ul li>a{
 	color: black;
 	display: block;
 	width: 100%;
@@ -111,7 +111,7 @@ nav ul li a{
 	float: left;
 	text-align: center;
 }
-nav li a:hover{
+nav li>a:hover{
 	background: url(../images/menu_bg_hover.png) repeat-x;
 	color: red;
 	transition: all 0.8s;
@@ -121,6 +121,11 @@ nav .nav1{
 	position: absolute;
 	left: 0;
 	top: 41px;
+	z-index: 10;
+	width: 615px;
+	display: none;
+	
+
 }
 
 nav .nav2{
@@ -131,8 +136,62 @@ nav .nav2{
 	width: 100%;
 	left: 0;
 	top: 65px;
-
+	width: 100%;
+	border-top: 2px solid #656565;
+	z-index: 5;
+	display: none;
+	background: #fff;
 	}
+	
+nav .nav1 dl{
+	
+		width: 142px;
+		float: left;
+		border-left: 1px solid #ddd;
+		padding-left: 10px;
+		margin-top: 30px;
+	}
+nav .nav1 dl dd{
+	line-height: 20px;
+	font-size: 12px;
+}
+nav .nav1 dl dt{
+	font-size: 18px;
+	font-weight: 900;
+}
+nav .nav1 dl a{
+	color: black;
+}
+.banner{
+	width: 100%;
+	height: 474px;
+	overflow: hidden;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 474px;
+	border: 0;
+	float: left;
+}
+.banner ul{
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -45px;
+	width: 90px;
+}
+.banner ul li{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: gray;
+	margin-left: 10px;
+	float: left;
+}
+.banner .banlist{
+	background: red;
+}
 
 
 
