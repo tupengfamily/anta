@@ -1,169 +1,3 @@
-.top{
-	width: 100%;
-	height: 24px;
-	line-height:24px;
-	background: #000000;
-	color: #fff;
-	
-}
-.top a{
-	font-size: 12px;
-	color: #fff;
-}
-.top span{
-	font-size: 12px;
-}
-
-.top-main{
-	width: 1024px;
-	margin: 0 auto;
-	
-	
-}
-.language{
-	width: 76px;
-	height: 24px;
-	color: #FFFFFF;
-	margin-left: 20px;
-}
-.language a{
-	display: block;
-	width: 16px;
-	height: 16px;
-	background: red;
-	text-align: center;
-	line-height: 16px;
-	margin-top: 4px;
-	border-radius: 2px;
-	font-size: 10px;
-}
-.language a:nth-of-type(2){
-	background: #656565;
-	margin-left: 5px;
-	
-}
-
-
-.log a{
-	display: inline;
-	margin-left: 19px;
-	padding-left: 10px;
-	background: url(../images/dot.png) left center no-repeat;
-	color: green;
-}
-.log a:nth-of-type(3){
-	background: none;
-	color: #fff;
-}
-.log a:nth-of-type(2){
-	display: none;
-}
-
-nav{
-	width: 100%;
-	height: 40px;
-	
-	background: url(../images/nav_bg.png) repeat-x;
-	border-bottom: 1px solid #fff;
-}
-.nav-main{
-	width: 1024px;
-	margin: 0 auto;
-}
-
-nav .logo{
-	width: 108px;
-	height: 40px;
-	text-align: center;
-	float: left;
-	border-right: 1px solid #c0c0c0;
-}
-
-nav .logo img{
-	height: 26px;
-	padding-top: 7px;
-}
-nav ul{
-	float: left;
-	
-}
-nav ul li{
-	float: left;
-	width: 84px;
-	border-left: 1px solid #fff;
-	border-right: 1px solid #c0c0c0;
-	position: relative;
-}
-.navlist{
-	line-height: 40px;
-}
-nav ul li img{
-	height: 30px;
-	padding-top: 5px;
-	
-}
-
-nav ul li>a{
-	color: black;
-	display: block;
-	width: 100%;
-	height: 40px;
-	float: left;
-	text-align: center;
-}
-nav li>a:hover{
-	background: url(../images/menu_bg_hover.png) repeat-x;
-	color: red;
-	transition: all 0.8s;
-	
-}
-nav .nav1{
-	position: absolute;
-	left: 0;
-	top: 40px;
-	z-index: 10;
-	width: 615px;
-	display: none;
-	
-
-}
-
-nav .nav2{
-	min-height: 200px;
-	height: auto!important;
-	height: 200px;
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 65px;
-	width: 100%;
-	
-	z-index: 5;
-	display: none;
-	background: #fff;
-	}
-	
-nav .nav1 dl{
-	
-		width: 142px;
-		float: left;
-		border-left: 1px solid #ddd;
-		padding-left: 10px;
-		margin-top: 30px;
-	}
-nav .nav1 dl dd{
-	line-height: 20px;
-	font-size: 12px;
-}
-nav .nav1 dl dt{
-	font-size: 18px;
-	font-weight: 900;
-}
-nav .nav1 dl a{
-	color: black;
-}
-
-
 .banner{
 	width: 100%;
 	height: 474px;
@@ -334,6 +168,7 @@ nav .nav1 dl a{
 	margin: 0 auto;
 	height: 200px;
 	margin-top: 10px;
+	border-bottom: 2px solid #fff;
 }
 
 .callus2 dl{
@@ -408,3 +243,16 @@ nav .nav1 dl a{
 	text-decoration: underline;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,287 @@
+.zlogo{
+	width: 940px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.zmain{
+	width: 940px;
+	height: 615px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.zmain .zpic{
+	width:245px ;
+	height: 615px;
+	position: relative;
+	float: left;
+}
+.zmain .zpic img{
+	width: 245px;
+	height:615px;
+}
+
+.zmain .zpic a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	font-size: 14px;
+	text-indent: 15px;
+	background: red;
+}
+
+.zmain .zhuce{
+	width: 400px;
+	height: 475px;
+	margin: 40px 0  0 50px;
+	
+	float: left;
+	position: relative;
+}
+
+.zmain .zother{
+	width: 196px;
+	height: 615px;
+	float:right;
+	
+}
+
+.zmain .zhuce h3{
+	height: 32px;
+	font-size: 24px;
+	color: #444;
+}
+
+.zmain .zhuce .btn{
+	height: 40px;
+	padding-top: 20px;
+}
+
+.zmain .zhuce .btn span{
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	float: left;
+	background: #e4e4e4;
+	cursor: pointer;
+}
+.zmain .zhuce .btn .btn1{
+	background: red;
+	color: #fff;
+}
+
+.zmain .zhuce .inp{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+}
+
+.zmain .zhuce .inp1{
+	width: 60%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+	float: left;
+	border-right: 0;
+	border-right: 1px solid #ddd;
+}
+
+.zmain .zhuce .yzm{
+	
+	float: right;
+	width: 40%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+
+
+.zmain .zhuce .yzm span{
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 10px;
+	background: greenyellow;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+}
+
+
+.zmain .zhuce .submit{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 50px;
+	background: red;
+	color: #fff;
+}
+
+.zmain .zhuce  p{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+.zmain .zhuce  p a{
+	color: red;
+}
+
+.zmain .zhuce  p a:hover{
+	text-decoration: underline;
+}
+
+.zmain .zhuce>span{
+	position: absolute;
+	left: 0;
+	bottom: -90px;
+}
+
+.zmain .zhuce  .form{
+	display: none;
+}
+
+.zmain .zhuce .yzm1{
+	
+	float: right;
+	width: 30%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+
+.zmain .zhuce .inp2{
+	width: 70%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+	float: left;
+	border-right: 0;
+	border-right: 1px solid #ddd;
+}
+
+.zmain .zhuce .yzm1 span{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	height: 38px;
+	margin-top: 10px;
+	background: greenyellow;
+	font-size: 12px;
+	text-align: center;
+	line-height: 38px;
+}
+.zother h4{
+	margin-top: 76px;
+	margin-left: 38px;
+	font-size: 18px;
+}
+
+.zother div{
+	width: 125px;
+	height: 125px;
+	margin-top: 10px;
+	margin-left: 38px;
+}
+
+.zother div a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 8px;
+	background: red;
+	margin-top: 10px;
+	border-radius: 50px;
+}
+
+.zother div a:nth-of-type(1){
+	background: url(../images/icon.png) no-repeat 0 -100px;
+}
+.zother div a:nth-of-type(2){
+	background: url(../images/icon.png) no-repeat 0 -200px;
+}
+.zother div a:nth-of-type(3){
+	background: url(../images/icon.png) no-repeat 0 -300px;
+}
+.zother div a:nth-of-type(4){
+	background: url(../images/icon.png) no-repeat 0 -400px;
+}
+.zother div a:nth-of-type(1):hover{
+	background: url(../images/icon.png) no-repeat 0 -150px;
+	transition:all 0.5s;
+}
+
+
+.zother dl{
+	margin-left: 25px;
+	margin-top: 180px;
+}
+
+.zmain .zhuce .freeparent{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+
+.zmain .zhuce .submit1{
+	width: 195px;
+	height: 48px;
+	border: 1px solid red;
+	background: red;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	color: black;
+}
+
+.zmain .zhuce #free{
+	display:block;
+	width: 195px;
+	height: 48px;
+	border: 1px solid red;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+	float: right;
+	margin-top: 10px;
+	color: red;
+}
+
+#forget{
+	float: right;
+	margin-top: 10px;
+	color: black;
+}
+
+#forget:hover{
+	color: red;
+	transition: 0.3s;
+}
