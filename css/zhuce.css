@@ -86,8 +86,38 @@
 	border: 1px solid #ddd;
 	margin-top: 15px;
 	text-indent: 15px;
+	position: relative;
+	
+}
+.zmain .zhuce .error1,.error2,.error3,.error4{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	
+	left: 0;
+	z-index: -5;
+	background:rgba(255,0,0,.1);
+	color: red;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 48px;
+	box-sizing: border-box;
+	border: 1px solid red;
 }
 
+.zmain .zhuce .error1{
+	top: 107px;
+}
+.zmain .zhuce .error2{
+	top: 172px;
+}
+.zmain .zhuce .error3{
+	top: 237px;
+}
+.zmain .zhuce .error4{
+	top: 302px;
+	width: 60%;
+}
 .zmain .zhuce .inp1{
 	width: 60%;
 	height: 50px;
@@ -110,6 +140,17 @@
 	margin-top: 15px;
 	border-left: 0;
 }
+.zmain .zhuce .yzm2{
+	
+	float: right;
+	width: 40%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+
 
 
 .zmain .zhuce .yzm span{
@@ -122,7 +163,16 @@
 	text-align: center;
 	line-height: 38px;
 }
-
+.zmain .zhuce .yzm2 span{
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 10px;
+	background: greenyellow;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+}
 
 .zmain .zhuce .submit{
 	width: 100%;
@@ -222,11 +272,14 @@
 
 .zother div a:nth-of-type(1){
 	background: url(../images/icon.png) no-repeat 0 -100px;
+	
 }
 .zother div a:nth-of-type(2){
+	transition: all 0.3s ease-in-out;
 	background: url(../images/icon.png) no-repeat 0 -200px;
 }
 .zother div a:nth-of-type(3){
+	
 	background: url(../images/icon.png) no-repeat 0 -300px;
 }
 .zother div a:nth-of-type(4){
@@ -234,9 +287,27 @@
 }
 .zother div a:nth-of-type(1):hover{
 	background: url(../images/icon.png) no-repeat 0 -150px;
-	transition:all 0.5s;
+	
 }
+.zother div a:nth-of-type(2):hover{
+	background: url(../images/icon.png) no-repeat 0 -250px;
+	
+}
+.zother div a:nth-of-type(3):hover{
+	background: url(../images/icon.png) no-repeat 0 -350px;
+	
+}
+.zother div a:nth-of-type(4):hover{
+	background: url(../images/icon.png) no-repeat 0 -450px;
+	
+}
+.zother div a{
+	transition: all 0.5s ease-in-out;
+}
+.zother div a:hover{
+	transition: all 0.5s ease-in-out;
 
+}
 
 .zother dl{
 	margin-left: 25px;
