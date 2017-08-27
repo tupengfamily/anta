@@ -159,9 +159,10 @@
 	margin: 0px auto;
 	margin-top: 10px;
 	background: greenyellow;
-	height: 38px;
+	height: 30px;
 	text-align: center;
-	line-height: 38px;
+	line-height: 30px;
+	margin-bottom: 8px;
 }
 .zmain .zhuce .yzm2 span{
 	display: block;
@@ -169,9 +170,10 @@
 	margin: 0px auto;
 	margin-top: 10px;
 	background: greenyellow;
-	height: 38px;
+	height: 30px;
 	text-align: center;
-	line-height: 38px;
+	line-height: 30px;
+	
 }
 
 .zmain .zhuce .submit{
@@ -356,3 +358,271 @@
 	color: red;
 	transition: 0.3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zmain .denglu{
+	width: 400px;
+	height: 475px;
+	margin: 40px 0  0 50px;
+	float: left;
+	position: relative;
+}
+
+
+.zmain .denglu h3{
+	height: 32px;
+	font-size: 24px;
+	color: #444;
+}
+
+.zmain .denglu .btn{
+	height: 40px;
+	padding-top: 20px;
+}
+
+.zmain .denglu .btn span{
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	float: left;
+	background: #e4e4e4;
+	cursor: pointer;
+}
+.zmain .denglu .btn .btn1{
+	background: red;
+	color: #fff;
+}
+
+.zmain .denglu .inp{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+	position: relative;
+	
+}
+
+.zmain .denglu .inp1{
+	width: 60%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+	float: left;
+	border-right: 0;
+	border-right: 1px solid #ddd;
+}
+
+.zmain .denglu .yzm{
+	
+	float: right;
+	width: 40%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+.zmain .denglu .yzm2{
+	
+	float: right;
+	width: 40%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+
+
+
+.zmain .denglu .yzm span{
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 10px;
+	background: greenyellow;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+.zmain .denglu .yzm2 span{
+	display: block;
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 10px;
+	background: greenyellow;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+
+.zmain .denglu .submit{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 50px;
+	background: red;
+	color: #fff;
+}
+
+.zmain .denglu  p{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+.zmain .denglu  p a{
+	color: red;
+}
+
+.zmain .denglu  p a:hover{
+	text-decoration: underline;
+}
+
+.zmain .denglu>span{
+	position: absolute;
+	left: 0;
+	bottom: -90px;
+}
+
+.zmain .denglu  .form{
+	display: none;
+}
+
+.zmain .denglu .yzm1{
+	
+	float: right;
+	width: 30%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	border-left: 0;
+}
+
+.zmain .denglu .inp2{
+	width: 70%;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	text-indent: 15px;
+	float: left;
+	border-right: 0;
+	border-right: 1px solid #ddd;
+}
+
+.zmain .denglu .yzm1 span{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	height: 38px;
+	margin-top: 10px;
+	background: greenyellow;
+	font-size: 12px;
+	text-align: center;
+	line-height: 38px;
+}
+.zmain .denglu .freeparent{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+
+.zmain .denglu .submit1{
+	width: 195px;
+	height: 48px;
+	border: 1px solid red;
+	background: red;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	color: black;
+}
+
+.zmain .denglu #free{
+	display:block;
+	width: 195px;
+	height: 48px;
+	border: 1px solid red;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+	float: right;
+	margin-top: 10px;
+	color: red;
+}
+
+#forget{
+	float: right;
+	margin-top: 10px;
+	color: black;
+}
+
+#forget:hover{
+	color: red;
+	transition: 0.3s;
+}
+
+
+.zmain .denglu .error1,.error2,.error3{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	z-index: -5;
+	background:rgba(255,0,0,.1);
+	color: red;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 48px;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.zmain .denglu .error1{
+	left: 0;
+	top: 47px;
+}
+
+.zmain .denglu .error2{
+	left: 0;
+	top: 112px;
+}
+
+.zmain .denglu .error3{
+	width: 60%;
+	left: 0;
+	top: 177px;
+}
+
