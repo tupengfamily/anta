@@ -167,6 +167,109 @@ nav .nav1 dl a{
 	color: black;
 }
 
+nav .navul2 li:nth-of-type(4){
+	width: 41px;
+	height: 41px;
+	background: red;
+	margin-left: 10px;
+	position: relative;
+}
+
+nav .navul2 li i{
+	display: block;
+	width: 41px;
+	height: 41px;
+	background:url(../images/public.png) no-repeat 10px 10px;
+}
+
+nav .navul2 li .search{
+	width: 300px;
+	height: 46px;
+	position: absolute;
+	left: -280px;
+	top: 41px;
+	background:#ddd;
+	z-index: 10;
+	display: none;
+}
+nav .navul2 li .search input{
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 4px;
+	line-height: 22px;
+	text-indent: 10px;
+	width: 225px;
+	float: left;
+}
+nav .navul2 li .search button{
+	width: 50px;
+	height: 36px;
+	background:red;
+	margin-top: 10px;
+	line-height: 36px;
+	border: 0;
+	float: right;
+	text-align: center;
+	margin-right: 5px;
+	
+}
+
+.banner{
+	width: 100%;
+	height: 474px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.pic{
+	position: absolute;
+	
+}
+
+.banner .pic li{
+	
+	
+	float: left;
+}
+.banner .pic li img{
+	height: 474px;
+	float: left;
+	width: 100%;
+}
+
+.banner .list{
+	position: absolute;
+	bottom: 20px;
+	width: 90px;
+	left: 50%;
+	margin-left: -45px;
+}
+
+.banner .list li{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: #ddd;
+	float: left;
+	margin-left: 10px;
+}
+
+.banner .list .banlist{
+	background: red;
+}
+
+
+nav .navul1 li:hover .nav1{
+	display: block;
+}
+
+
+
+
+
+
+
+
 
 footer{
 	width: 940px;
@@ -194,4 +297,67 @@ footer div a:nth-of-type(6){
 
 footer p{
 	margin-top: 5px;
+}
+
+
+
+
+.cnbox{
+	width: 940px;
+	min-height: 600px;
+	height: auto!important;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: yellow;
+	padding: 15px 30px;
+}
+.cnbox:after{
+	content: ",";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+
+
+.cnbox .box{
+	width: 180px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-right: 33px;
+}
+.cnbox .box .middleimg img{
+	width: 180px;
+	height: 180px;
+}
+
+.cnbox .box .minimg li img{
+	width: 32px;
+	height: 32px;
+}
+
+
+.cnbox .cpzs{
+	padding: 0 10px;
+	line-height: 32px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.cnbox .cpzs a{
+	color: black;
+	font-size: 18px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+.cnbox .cpzs a:nth-of-type(1){
+	border-right: 1px solid black;
+}
+
+.cnbox .basketball{
+	padding: 15px 0;
+	font-size: 20px;
 }

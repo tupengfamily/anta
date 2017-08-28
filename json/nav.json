@@ -1,0 +1,23 @@
+{
+	"nav":[
+			{
+				"title": "篮球",
+				"link": "http://www.anta.com/productSeries/runing"
+			},{
+				"title": "跑步",
+				"link": "http://www.anta.com/productSeries/runing"
+			},{
+				"title": "宗训",
+				"link": "http://www.anta.com/productSeries/runing"
+			},{
+				"title": "户外",
+				"link": "http://www.anta.com/productSeries/runing"
+			},{
+				"title": "休闲运动",
+				"link": "http://www.anta.com/productSeries/runing"
+			},{
+				"title": "配件",
+				"link": "http://www.anta.com/productSeries/runing"
+			}
+	 ]
+}
