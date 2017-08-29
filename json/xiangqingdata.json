@@ -1,0 +1,100 @@
+{"pid1001":{
+	"id":"101",
+	"title":"汤普森二代战靴 2017季后赛版",
+	"imgsrc":"../images/xqlbmx1.jpg",
+	"minimg":["../images/xqlbmn1.jpg",
+	          "../images/xqlbmn2.jpg"
+	          ],
+	 "price":"448.00"
+	
+},
+"pid1002":{
+	"id":"102",
+	"title":"汤普森二代战靴全明星配色",
+	"imgsrc":"../images/xqlbmx11.jpg",
+	"minimg":["../images/xqlbmn11.jpg",
+	          "../images/xqlbmn12.jpg",
+	          "../images/xqlbmn13.jpg"
+	          ],
+	 "price":"469.00"
+},
+"pid1003":{
+	"id":"103",
+	"title":"KT LIGHT汤普森轻质透气专业训练款",
+	"imgsrc":"../images/xqlbmx21.jpg",
+	"minimg":["../images/xqlbmx21.jpg",
+	          "../images/xqlbmx22.jpg",
+	          "../images/xqlbmx23.jpg"
+	          ],
+	 "price":"277.00"
+},
+"pid1004":{
+	"id":"104",
+	"title":"菱极缓震全明星战靴",
+	"imgsrc":"../images/xqlbmx31.jpg",
+	"minimg":["../images/xqlbmx31.jpg",
+	          "../images/xqlbmx32.jpg",
+	          "../images/xqlbmx33.jpg"
+	          ],
+	 "price":"277.00"
+},
+"pid1005":{
+	"id":"105",
+	"title":"男子吸湿舒适短袖针织衫",
+	"imgsrc":"../images/xqlbmx41.jpg",
+	"minimg":["../images/xqlbmx41.jpg",
+	          "../images/xqlbmx42.jpg",
+	          "../images/xqlbmx43.jpg"
+	          ],
+	 "price":"448.00"
+},
+"pid1006":{
+	"id":"106",
+	"title":"男子舒适篮球比赛套",
+	"imgsrc":"../images/xqlbmx51.jpg",
+	"minimg":["../images/xqlbmx51.jpg",
+	          "../images/xqlbmx52.jpg",
+	          "../images/xqlbmx53.jpg",
+	          "../images/xqlbmx54.jpg",
+	          "../images/xqlbmx55.jpg"
+	          ],
+	 "price":"448.00"
+},
+"pid1007":{
+	"id":"107",
+	"title":"男子增高缓震板鞋",
+	"imgsrc":"../images/xqlbmx61.jpg",
+	"minimg":["../images/xqlbmx61.jpg",
+	          "../images/xqlbmx62.jpg",
+	          "../images/xqlbmx63.jpg",
+	          "../images/xqlbmx64.jpg"
+	          ],
+	 "price":"848.00"
+},
+"pid1008":{
+	"id":"108",
+	"title":"女子简约百搭短袖针织衫",
+	"imgsrc":"../images/xqlbmx71.jpg",
+	"minimg":["../images/xqlbmx71.jpg",
+	          "../images/xqlbmx72.jpg"
+	          ],
+	 "price":"448.00"
+},
+"pid1009":{
+	"id":"109",
+	"title":"女子时尚百搭短裙",
+	"imgsrc":"../images/xqlbmx81.jpg",
+	"minimg":["../images/xqlbmx81.jpg",
+	          "../images/xqlbmx82.jpg"
+	          ],
+	 "price":"448.00"
+},
+"pid10010":{
+	"id":"1010",
+	"title":"女子简约百搭短袖针织衫",
+	"imgsrc":"../images/xqlbmx91.jpg",
+	"minimg":["../images/xqlbmx91.jpg",
+	          "../images/xqlbmx92.jpg"
+	          ],
+	 "price":"448.00"
+}}

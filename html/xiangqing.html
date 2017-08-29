@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="../css/ba.css" rel="stylesheet" type="text/css">
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/template.js"></script>
+		<script type="text/javascript" src="../js/xiangqing.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-main">
+				
+				<div class="frt language">
+					<span class="flt">语言：</span>
+					<a class="flt" href="javascript:;">中</a>
+					<a class="flt" href="http://en.anta.com/" target="_blank">En</a>
+				</div>
+				<div class="frt log">
+					<a href="../html/denglu.html">登录</a>
+					<a href="">会员</a>
+					<a href="../html/zhuce.html">免费注册</a>
+				</div>
+				<span class="frt">欢迎来到安踏！</span>
+			</div>
+		</div>
+		<nav class="nav">
+			<div class="nav-main">
+				<a href="http://www.anta.com" class="logo">
+					<img src="../images/anta_logo.png" title="安踏  永不止步 " />
+				</a>
+				<ul class="navul">
+					<div class="navul1" style="float: left;">
+						
+					</div>
+<!--					<script id="nav1" type="text/html">
+					{{each nav as value}}
+						<li class="navlist">
+							<a href="{{value.link}}">{{value.title}}</a>
+						</li>
+					{{/each}}
+
+					</script>-->
+					<script id="temnav" type="text/html">
+						{{each nav as value}}
+							<li class="navlist">
+								<a href="{{value.href}}">{{value.title}}</a>
+							<div class="nav1">
+						{{each dl as value1}}
+							<dl>
+								<dt>{{value1.dt}}</dt>
+								{{each value1.dd as value2}}
+								<dd>{{value2}}</dd>
+								{{/each}}
+							</dl>
+						{{/each}}
+							</div>
+							</li>
+						{{/each}}
+
+					</script>
+
+				<div class="navul2" style="float: right;">
+					<li><a href="">
+						<img src="../images/top1.png" />
+					</a></li>
+					<li><a href="">
+						<img src="../images/top2.png" />
+					</a></li>
+					<li><a href="">
+						<img src="../images/top3.png" />
+					</a></li>
+					<li><i></i>
+						<div class="search">
+							<form>
+								<input type="text" placeholder="请输入你要搜索的内容" />
+								<button></button>搜索
+							</form>
+						</div>
+		
+					</li>
+				</div>
+				</ul>
+				
+			</div>
+				<div class="nav2"></div>
+		</nav>
+	<div class="banner">
+		<ul class="pic">
+			<li><img src="../images/xiangqing1.jpg"></li>
+			<li><img src="../images/xiangqing2.jpg"></li>
+			<li><img src="../images/xiangqing3.jpg"></li>
+		</ul>
+
+		<ul class="list">
+			<li class="banlist"></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	
+	<div class="cnbox">
+		<div class="cpzs">
+			<a href="">产品展示</a>
+			<a href="">视频</a>
+		</div>
+		<div class="basketball">
+			<span>篮球</span>
+		</div>
+		<div class="imgbox">
+<!--			<div class="box">
+				<div class="middleimg">
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">
+						<img src="../images/xqlbmx1.jpg" />
+					</a>
+				</div>
+				<ul class="minimg">
+					<li>
+						<img src="../images/xqlbmn1.jpg" />
+					</li>
+					<li>
+						<img src="../images/xqlbmn2.jpg" />
+					</li>
+				</ul>
+				<p><span>￥</span>498.00</p>	
+				<h4>
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">汤普森二代战靴 2017季后赛版</a>
+				</h4>
+			</div>
+			<div class="box">
+				<div class="middleimg">
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">
+						<img src="../images/xqlbmx1.jpg" />
+					</a>
+				</div>
+				<ul class="minimg">
+					<li>
+						<img src="../images/xqlbmn1.jpg" />
+					</li>
+					<li>
+						<img src="../images/xqlbmn2.jpg" />
+					</li>
+				</ul>
+				<p><span>￥</span>498.00</p>	
+				<h4>
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">汤普森二代战靴 2017季后赛版</a>
+				</h4>
+			</div>
+			<div class="box">
+				<div class="middleimg">
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">
+						<img src="../images/xqlbmx1.jpg" />
+					</a>
+				</div>
+				<ul class="minimg">
+					<li>
+						<img src="../images/xqlbmn1.jpg" />
+					</li>
+					<li>
+						<img src="../images/xqlbmn2.jpg" />
+					</li>
+				</ul>
+				<p><span>￥</span>498.00</p>	
+				<h4>
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">汤普森二代战靴 2017季后赛版</a>
+				</h4>
+			</div>
+			<div class="box">
+				<div class="middleimg">
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">
+						<img src="../images/xqlbmx1.jpg" />
+					</a>
+				</div>
+				<ul class="minimg">
+					<li>
+						<img src="../images/xqlbmn1.jpg" />
+					</li>
+					<li>
+						<img src="../images/xqlbmn2.jpg" />
+					</li>
+				</ul>
+				<p><span>￥</span>498.00</p>	
+				<h4>
+					<a href="http://www.anta.cn/anta-11711101.html" title="汤普森二代战靴 2017季后赛版">汤普森二代战靴 2017季后赛版</a>
+				</h4>
+			</div>-->
+		</div>
+
+	</div>
+	
+	</body>
+
+</html>

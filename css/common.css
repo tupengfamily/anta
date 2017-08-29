@@ -213,7 +213,7 @@ nav .navul2 li .search button{
 	margin-right: 5px;
 	
 }
-
+/*
 .banner{
 	width: 100%;
 	height: 474px;
@@ -254,6 +254,49 @@ nav .navul2 li .search button{
 	margin-left: 10px;
 }
 
+.banner .list .banlist{
+	background: red;
+}
+*/
+.banner{
+	width:100%;
+	height:474px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.banner .pic{
+	position: absolute;
+	left: 0 ;
+	top: 0;
+}
+
+.banner .pic li{
+	
+	height: 474px;
+	float: left;
+}
+.banner .pic li img{
+	width: 100%;
+	height:474px;
+	border: 0;
+	float: left;
+}
+
+.banner .list{
+	position: absolute;
+	top:80%;
+	left: 45%;
+}
+.banner .list li{
+	width: 20px;
+	height: 20px;
+	background: gray;
+	float: left;
+	margin-left: 10px;
+	border-radius: 30px;
+}
 .banner .list .banlist{
 	background: red;
 }
@@ -309,7 +352,6 @@ footer p{
 	height: 600px;
 	margin: 0 auto;
 	margin-top: 30px;
-	background: yellow;
 	padding: 15px 30px;
 }
 .cnbox:after{
@@ -323,22 +365,38 @@ footer p{
 
 
 .cnbox .box{
-	width: 180px;
+	width: 200px;
+	height: 310px;
 	padding: 10px;
 	border: 1px solid #ddd;
 	float: left;
 	margin-right: 33px;
+	margin-top: 20px;
+	box-sizing: border-box;
 }
 .cnbox .box .middleimg img{
 	width: 180px;
 	height: 180px;
 }
-
-.cnbox .box .minimg li img{
-	width: 32px;
-	height: 32px;
+.cnbox .box .minimg{
+	width: 100%;
+	height: 40px;
+}
+.cnbox .box .minimg li{
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-left: 2px;
+	padding: 1px;
+	border: 1px solid #ddd;
 }
 
+.cnbox .box .minimg li img{
+	width: 28px;
+	height: 28px;
+	border: 0;
+	text-align: center;
+}
 
 .cnbox .cpzs{
 	padding: 0 10px;
@@ -346,7 +404,29 @@ footer p{
 	width: 100%;
 	border-bottom: 1px solid #ddd;
 }
-
+.cnbox p{
+	width: 100%;
+	height: 30px;
+	color: red;
+	font-size: 20px;
+	line-height: 30px;
+}
+.cnbox p span{
+	font-size: 16px;
+}
+.cnbox .box h4{
+	height: 18px;
+	font-weight: 100;
+	margin-top: 3px;
+	line-height: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cnbox .box h4 a {
+	font-size: 12px;
+	color: black;
+}
 .cnbox .cpzs a{
 	color: black;
 	font-size: 18px;
