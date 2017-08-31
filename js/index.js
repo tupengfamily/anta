@@ -67,8 +67,23 @@ $(function(){
 				clearInterval(timer);
 			},function(){move()})
 			   
-	$(window).resize(function(){
+	/*$(window).resize(function(){
 		location.reload();
+	})*/
+	
+	$(".callus>a").click(function(){
+		$(".callus2").slideToggle("slow",function(){
+			$(".callus>a").text("更多");
+		});
+		$(this).text("关闭");
+		$(".callus3").css({"border":0});
+	})
+	
+	//$(".callus2 dl").find("span")
+	
+	console.log($(".callus2 dl").find("span"));
+	$(".check").click(function(){
+		$(this).parent().css({"border":"3px solid #fff"});
 	})
 })
 

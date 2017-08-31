@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tit{
+	width: 1190px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #666;
+}
+.tit span{
+	color: #ddd;
+	padding: 0 5px;
+}
+
+.box{
+	width: 1190px;
+	margin: 0 auto;
+	height: 670px;
+}
+
+.box .minimg{
+	width: 100px;
+	height: 600px;
+	float: left;
+	position: relative;
+}
+.box .minimg .minimglist li{
+	width: 100px;
+	height: 100px;text-align: center;
+	line-height: 100px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+}
+
+.box .minimg .minimglist .afterclick{
+	border: 3px solid #ddd;
+}
+.box .minimg .minimglist img{
+	width: 94px;
+	height: 94px;
+}
+
+.box .minimg p:nth-of-type(1){
+	width: 27px;
+	height: 27px;
+	background: url(../images/dtl-icon.png) no-repeat 0 0;
+	position: relative;
+	left: 40px;
+	
+}
+
+.box .minimg p:nth-of-type(2){
+	width: 27px;
+	height: 27px;
+	background: url(../images/dtl-icon.png) no-repeat 0 -27px;
+	position: relative;
+	left: 40px;
+	
+}
+
+.box .midimg{
+	width: 594px;
+	height: 594px;
+	background: gray;
+	margin:0 20px;
+	border: 3px solid #eee;
+	float: left;
+	position: relative;
+}
+.box .midimg .fenxiang{
+	position: absolute;
+	left: 0;
+	top: 617px;
+	width: 100%;
+	text-align: center;
+}
+.box .midimg .fenxiang a{
+	display: inline-block;
+	width: 115px;
+	height: 35px;
+	text-align:center;
+	line-height: 35px;
+	color: black;
+	background: #ddd;
+}
+.box .midimg .fangda{
+	position: absolute;
+	width: 455px;
+	height: 600px;
+	top: 0;
+	left: 618px;
+	box-sizing: border-box;
+	border: 3px solid #ddd;
+	background: #fff;
+	display: none;
+	z-index: 20;
+}
+.box .midimg .shadow{
+	width: 235px;
+	height: 210px;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.box .midimg img{
+	width: 100%;
+	height: 100%;
+}
+
+.box .bigimg{
+	width: 450px;
+	height:auto;
+	float:right;
+}
+
+
+.bigimg .righttit{
+	width: 100%;
+	font-size: 24px;
+	font-weight: 900;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+}
+.bigimg .righttit span{
+	font-size: 14px;
+	font-weight: 100;
+	margin-left: 5px;
+}
+
+.bigimg .rightstart span:nth-of-type(1){
+	display: block;
+	width: 55px;
+	height: 14px;
+	background: url(../images/stars.png) no-repeat 0 0;
+	float: left;
+	margin-top: 3px;
+}
+.bigimg .rightstart{
+	height: 17px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.bigimg .price{
+	width: 100%;
+	float: left;
+	height: 77px;
+	border-top: 1px solid #ddd;
+}
+.bigimg .price span{
+	color: red;
+	font-size: 28px;
+	line-height: 50px;
+}
+.bigimg .price span:nth-of-type(1){
+	font-size: 18px;
+}
+.bigimg .rightstart span:nth-of-type(2){
+	display: block;
+	float: left;
+	color: #fa5400;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+
+.bigimg .xinxi{
+	margin: 5px 0;
+	box-sizing: border-box;
+	padding-left: 15px;
+	float: left;
+	font-size: 14px;
+	line-height: 23px;
+	color: #c40000;
+	width: 100%;
+	background: #ddd;
+}
+
+.bigimg .color{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	float: left;
+	width: 100%;
+}
+.bigimg .imgcolor{
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+.bigimg .imgcolor li{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border: 1px solid #b8b7bd;
+	text-align: center;
+	line-height:60px;
+}
+.bigimg .imgcolor li:nth-of-type(2){
+	margin-left: 5px;
+}
+.bigimg .imgcolor img{
+	width: 100%;
+	height: 100%;
+}
+.bigimg .cicun1{
+	width: 100%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.bigimg .cicun1 span:nth-of-type(2){
+	margin-left: 80px;
+}
+.bigimg .cicun1 span:nth-of-type(3){
+	margin-left: 50px;
+}
+.bigimg .cicun2{
+	margin: 10px 0;
+	float: left;
+	width: 100%;
+	height: 32px;
+}
+
+.bigimg .cicun2 li{
+	float: left;
+	width: 40px;
+	height: 30px;
+	text-align:center;
+	line-height: 30px;
+	margin-left: 5px;
+	border:1px solid #ddd;
+	color: #666460;
+	cursor: pointer;
+}
+
+.bigimg .btn{
+	width: 100%;
+	height: 44px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bigimg .btn1{
+	width: 122px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	position: relative;
+	float: left;
+	border:1px solid #ddd;
+	background: url(../images/dtl-buy.png) no-repeat right -27px;
+}
+
+
+.bigimg .btn .btn1 .num{
+	position:absolute;
+	width: 100%;
+	left: 0;
+	top: 40px;
+	display: none;
+}
+.bigimg .btn1 .num li{
+	width: 100%;
+	height: 35px;
+	margin-top: 2px;
+	background: #ddd;
+	text-align:center;
+	line-height: 35px;
+	
+}
+.bigimg .btn2{
+	width: 156px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	background: black;
+	color: #fff;
+	float: left;
+	margin: 0 4px;
+}
+.bigimg .btn3{
+	width: 156px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	background:red;
+	color: #fff;
+	float: left;
+}
+
+.bigimg .shuoming{
+	width: 100%;
+	float: left;
+}
+.bigimg .shuoming span{
+	display: block;
+	line-height: 30px;
+}
+
+.shopping{
+	height: 800px;
+	background: #e6e6e6;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+.shopping .shopcar{
+	width: 35px;
+	background: black;
+	float: left;
+	height: 100%;
+}
+.shopping .shopcar p{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 300px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.shopping .shopcar p:hover{
+	background: red;
+	transition: 0.3s;
+}
+
+.shopping .barket{
+	position: relative;
+	width: 280px;
+	height: 800px;
+	float: right;
+	background: yellow;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.shopping .barket .barket1{
+	width: 280px;
+	height: 64px;
+	background: pink;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.shopping .barket .barket1 input{
+	display: block;
+	margin: 0 5px;
+	float: left;
+	margin-top: 25px;
+}
+.shopping .barket .barket1 a{
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 7px;
+}
+.shopping .barket .barket1 a img{
+	width: 100%;
+	height: 100%;
+}
+
+.shopping .barket .barket1 .cartit{
+	display: block;
+	float: left;
+	width: 70px;
+	height: 62px;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.shopping .barket .barket1 .carshu{
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding: 2px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	float: left;
+	margin-top:20px;
+	margin-left: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+.shopping .barket .barket1 .carnum{
+	border: 0;
+	display: block;
+}
+.shopping .barket .barket1 .carprice{
+	margin-top: 20px;
+	float: right;
+	margin-right: 5px;
+}
+.shopping .barket .barket1 .delete{
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}

@@ -200,7 +200,7 @@ $(function(){
 			$(this).css({"border":"1px solid #ddd"});
 			var middle=$(this).find(".middleimg img");
 			var middleimg=$(this).find(".middleimg img").attr("src");
-			console.log(middleimg);
+			//console.log(middleimg);
 			$(this).find(".minimg li").mouseenter(function(){
 /*				var minimg=Array.from($(this).find("img"));
 				console.log(minimg);
@@ -208,7 +208,7 @@ $(function(){
 				
 				//console.log($(this).index());
 				var newmiddleimg = middleimg.slice(0, middleimg.lastIndexOf('.')-1) + ($(this).index()+1) + '.jpg';
-				console.log(newmiddleimg);
+				//console.log(newmiddleimg);
 				middle.attr({src:newmiddleimg});
 				
 			})
@@ -217,8 +217,8 @@ $(function(){
 		$(".box").mouseleave(function(){
 			$(this).find(".minimg").stop().slideUp();
 			$(this).css({"border":0});
-			var newmiddleimg = middleimg.slice(0, middleimg.lastIndexOf('.')-1) +1+ '.jpg';
-			middle.attr({src:newmiddleimg});
+/*			var newmiddleimg = middleimg.slice(0, middleimg.lastIndexOf('.')-1) +1+ '.jpg';
+			middle.attr({src:newmiddleimg});*/
 		})
 		
 		
